@@ -1,0 +1,77 @@
+
+@font-face {
+    font-family:proxima_black ;
+    src: url(../font/FontsFree-Net-Proxima-Nova-Black.otf);
+}
+
+@font-face {
+    font-family:proxima_light ;
+    src: url(../font/ProximaNova-Light.otf);
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: "proxima_black",sans-serif;
+    text-transform: uppercase;
+}
+h2{
+    font-family: "proxima_light",sans-serif;
+}
+
+.container {
+    width: 100%;
+}
+
+#baniere {
+    width: 100%;
+}
+
+.hero-container img 
+{
+    width: 100%;
+    height: auto;
+
+}
+
+/* CHECKBOX */
+
+.filtre{
+    background-color: #E6EEF1;
+    width: 50%;
+}
+
+/* PLATS */
+
+.plat {
+    margin: 10%;
+    box-shadow: 0 0 15px 5px rgba(0,0,0,0.3);
+}
+
+.img_plat{
+	width: 350px;
+    height: 200px;
+	align-self: center;
+}
+
+
+/* RESPONSIVE */
+@media screen and (max-width: 600px){
+
+    .gamme{
+		margin: 0 auto;
+		margin-bottom: 5%;
+		margin-top:5%;
+	}
+    .btn{
+        font-size:1.2em;
+        }
+    
+        .btn:hover{
+        font-size:1.2em;
+        }
+}
