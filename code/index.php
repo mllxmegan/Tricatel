@@ -14,29 +14,31 @@ $plat = $bdd->query('SELECT * FROM plat ORDER BY id_plat DESC');
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
-    <link rel="manifest" href="/assets/favicon/site.webmanifest">
+    
     <link rel="mask-icon" href="/assets/favicon/safari-pinned-tab.svg" color="#5bbad5">
-    <link rel="shortcut icon" href="/assets/favicon/favicon.ico">
+    <link rel="shortcut icon" href="/assets/favicon/favicon.ico">           
     <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="msapplication-config" content="/assets/favicon/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
+    <!-- SEO -->
+    <meta name="description" content="Tricatel vendeur de père en fils de produit industriel depuis 1850"/>
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/icofont/icofont.min.css">
     <script src="https://kit.fontawesome.com/c70a4c5665.js" crossorigin="anonymous"></script>
     <title>Tricatel</title>
 </head>
 
-<body>
+<body class="bg">
 <!-- BANIERE -->
     <header id="baniere">
         <div class="hero-container">
             <img src="assets/img/bg1.png" class="img_logo w-100" alt="">
         </div>
-        <div class="button d-flex flex-row-reverse mt-3 me-4">
+        <div class="button d-flex flex-row-reverse my-4 me-4">
             <a class="btn btn-success" href="include/connexion.php" role="button">Se connecter</a>
         </div>
         <h1 class="text-center py-4"> Nos plats du moment </h1>
@@ -44,7 +46,7 @@ $plat = $bdd->query('SELECT * FROM plat ORDER BY id_plat DESC');
 
     <div class="container">
         <!-- FILTRE -->
-        <div class="row">
+        <!-- <div class="row">
 
             <div class="col-12 align-content-center filtre d-flex flex-column py-3 flex-sm-wrap rounded shadow">
 
@@ -94,7 +96,7 @@ $plat = $bdd->query('SELECT * FROM plat ORDER BY id_plat DESC');
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
 
         <!-- CARD PLAT -->
         <div class="row mx-5-lg pt-5">
@@ -124,7 +126,24 @@ $plat = $bdd->query('SELECT * FROM plat ORDER BY id_plat DESC');
     </div>
 
     </div>
-    <script src="assets/js/script.js"></script>
+        <!-- FOOTER -->
+     <footer id="footer">
+    <div class="container">
+      <h3>Tricatel</h3>
+      
+      <p>Ne mangez plus... Bouffez !</p>
+      <div class="social-links">
+        <a href="https://twitter.com/Tricatel_SA" target="blank" class="twitter"><i class="icofont-twitter icofont-2x"></i></a>
+        <a href="https://www.facebook.com/Tricatel-1380775045476527" target="blank" target="blank" class="facebook"><i class="icofont-facebook icofont-2x"></i></a>
+        <a href="https://www.instagram.com/tricatel_istgr/?hl=fr" target="blank" class="instagram"><i class="icofont-instagram icofont-2x"></i></a>
+      </div>
+      <div class="copyright">
+        &copy; Copyright <strong><span>Tricatel</span></strong>. All Rights Reserved
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+    <!-- <script src="assets/js/script.js"></script> -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
 </body>
 

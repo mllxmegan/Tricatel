@@ -16,6 +16,10 @@
     font-family: "proxima_light";
 }
 
+.bg {
+    background-color: rgb(241, 234, 234,0.5);
+}
+
 h1{
     font-family: "proxima_black",sans-serif;
     text-transform: uppercase;
@@ -61,11 +65,12 @@ h2{
 /* CHECKBOX */
 
 .filtre{
-    background-color: #E6EEF1;
+    background-color: rgba(250, 100, 129, 0.2);
     width: 50%;
 }
 
 /* PLATS */
+
 
 .plat {
     margin: 10%;
@@ -133,6 +138,84 @@ h2{
   .alert p{
     margin: 0;
   }
+
+
+
+  /*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+#footer {
+    background:url("../img/footer.jpg");
+    background-size: cover;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 30px;
+    padding: 25px 0;
+    position: relative;
+  }
+  
+  #footer::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6);
+  }
+  
+  #footer .container {
+    position: relative;
+  }
+  
+  #footer h3 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #fff;
+    position: relative;
+    font-family: "proxima_black", serif;
+    padding: 0;
+    margin: 0 0 15px 0;
+  }
+  
+  #footer p {
+    font-size: 1.3em;
+    font-style: italic;
+    padding: 0;
+    margin: 0 0 40px 0;
+  }
+  
+  #footer .social-links {
+    margin: 0 0 40px 0;
+  }
+  
+  #footer .social-links a {
+    font-size: 18px;
+    display: inline-block;
+    
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 10px;
+    border-radius: 20%;
+    text-align: center;
+    width: 55px;
+    height: 55px;
+    transition: 0.3s;
+    text-decoration: none;
+  }
+  
+  #footer .social-links a:hover {
+    background: #BC1212;
+    color: #fff;
+    text-decoration: none;
+  }
+  .iconfont-instagram:hover {}
+  #footer .copyright {
+    margin: 0 0 5px 0;
+  }
+  
 
 /* RESPONSIVE */
 
