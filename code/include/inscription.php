@@ -18,7 +18,7 @@
 <div class="big-container">
 	<div class="container">
 		<div class="inner-container">
-			<h1 class="big_title">Inscription</h1>
+			<h1 class="my-3 text-center">Inscription</h1>
 		</div>
 		<?php if(!empty($errors)): ?>
 			<div class="alert">
@@ -34,16 +34,9 @@
 <div class="container">
             <div class="wrapper fadeInDown">
   <div id="formContent">
-    <!-- Tabs Titles -->
-
-    <!-- Icon -->
-    <div class="fadeIn first">
-      <img src="../assets/img/card-game.png" id="icon" alt="User Icon"/>
-    </div>
-
     <!-- Login Form -->
     <form action="" method="post">
-	<h2>S'inscrire</h2>
+	<h2 class="mt-3">S'inscrire</h2>
       <input type="text" id="login" class="fadeIn second" name="username" placeholder="Saisir le nom d'utilisateur">
 	  <input type="password" id="password" class="fadeIn third" name="password" placeholder="Saisir un mot de passe">
 
